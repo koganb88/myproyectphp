@@ -1,5 +1,5 @@
 FROM  php:8
 
-COPY . .
+COPY src/ /var/www/html
 
 EXPOSE 80
