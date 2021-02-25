@@ -1,0 +1,5 @@
+FROM  php:8
+
+COPY . .
+
+EXPOSE 80
